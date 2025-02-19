@@ -18,8 +18,8 @@ detect_indent_width=false
 indent_mode=2
 
 [project]
-name=555-soil-moisture-snsr-cal
-base_path=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+name=rpi-mcp3008-sensor-cal
+base_path=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 description=
 file_patterns=
 
@@ -29,27 +29,27 @@ long_line_column=80
 
 [files]
 current_page=13
-FILE_NAME_0=66;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fmain.cpp;0;2
-FILE_NAME_1=27;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fmain-window.c;0;2
-FILE_NAME_2=61;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fmain-window.h;0;2
-FILE_NAME_3=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fimain-window.h;0;2
-FILE_NAME_4=0;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fimain-window.c;0;2
-FILE_NAME_5=87;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Finc%2Fconfig.h;0;2
-FILE_NAME_6=92;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Futil%2Futil.cpp;0;2
-FILE_NAME_7=90;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Futil%2Futil.h;0;2
-FILE_NAME_8=74;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fattrib.h;0;2
-FILE_NAME_9=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fcontrol%2Fcontrol.cpp;0;2
-FILE_NAME_10=92;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fstruct%2Fstruct.cpp;0;2
-FILE_NAME_11=90;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fstruct%2Fstruct.h;0;2
-FILE_NAME_12=5052;XML;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fresource%2Fmain-window.ui;0;2
-FILE_NAME_13=2318;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2FREADME.md;0;2
-FILE_NAME_14=0;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fgui.c;0;2
-FILE_NAME_15=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fconfig-file%2Fconfig-file.cpp;0;2
-FILE_NAME_16=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fconfig-file%2Fconfig-file.h;0;2
-FILE_NAME_17=1433;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fcal%2Fcal.cpp;0;2
-FILE_NAME_18=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fcal%2Fcal.h;0;2
-FILE_NAME_19=18;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2Fsrc%2Fgui%2Fgui.h;0;2
-FILE_NAME_20=1231;Make;0;EUTF-8;1;1;0;%2Fhome%2Fkeith%2Fgitrepo%2F555-soil-moisture-snsr-cal%2FMakefile;0;2
+FILE_NAME_0=66;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fmain.cpp;0;2
+FILE_NAME_1=27;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fmain-window.c;0;2
+FILE_NAME_2=61;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fmain-window.h;0;2
+FILE_NAME_3=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fimain-window.h;0;2
+FILE_NAME_4=0;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fimain-window.c;0;2
+FILE_NAME_5=87;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Finc%2Fconfig.h;0;2
+FILE_NAME_6=92;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Futil%2Futil.cpp;0;2
+FILE_NAME_7=90;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Futil%2Futil.h;0;2
+FILE_NAME_8=74;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fattrib.h;0;2
+FILE_NAME_9=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fcontrol%2Fcontrol.cpp;0;2
+FILE_NAME_10=92;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fstruct%2Fstruct.cpp;0;2
+FILE_NAME_11=90;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fstruct%2Fstruct.h;0;2
+FILE_NAME_12=5052;XML;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fresource%2Fmain-window.ui;0;2
+FILE_NAME_13=2533;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2FREADME.md;0;2
+FILE_NAME_14=0;C;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fgui.c;0;2
+FILE_NAME_15=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fconfig-file%2Fconfig-file.cpp;0;2
+FILE_NAME_16=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fconfig-file%2Fconfig-file.h;0;2
+FILE_NAME_17=1433;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fcal%2Fcal.cpp;0;2
+FILE_NAME_18=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fcal%2Fcal.h;0;2
+FILE_NAME_19=18;C++;0;EUTF-8;0;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2Fsrc%2Fgui%2Fgui.h;0;2
+FILE_NAME_20=1231;Make;0;EUTF-8;1;1;0;%2Fhome%2Fkeith%2Fgitrepo%2Frpi-mcp3008-sensor-cal%2FMakefile;0;2
 
 [VTE]
 last_dir=/home/keith/gitrepo/555-soil-moisture-snsr-cal
@@ -57,20 +57,20 @@ last_dir=/home/keith/gitrepo/555-soil-moisture-snsr-cal
 [build-menu]
 NF_00_LB=_Make
 NF_00_CM=make
-NF_00_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+NF_00_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 NF_01_LB=Make Custom _Target...
 NF_01_CM=make 
-NF_01_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+NF_01_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 NF_02_LB=Make _Object
 NF_02_CM=make %e.o
-NF_02_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+NF_02_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 EX_00_LB=_Execute
 EX_00_CM=./%e
-EX_00_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal/bin
+EX_00_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal/bin
 C++FT_00_LB=_Compile
 C++FT_00_CM=make
-C++FT_00_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+C++FT_00_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 C++FT_01_LB=_Build
 C++FT_01_CM=make
-C++FT_01_WD=/home/keith/gitrepo/555-soil-moisture-snsr-cal
+C++FT_01_WD=/home/keith/gitrepo/rpi-mcp3008-sensor-cal
 filetypes=C++;
