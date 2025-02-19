@@ -26,7 +26,7 @@ $ make
 
 # Usage
 ## Config
-Set your desired options in the config.ini file:
+Set your desired options in the config.ini file: <br />
 num_sensors - Number of sensors <br />
 sensor_min_scale - Bottom of sensor scale <br />
 sensor_full_scale - Top of sensor scale <br />
