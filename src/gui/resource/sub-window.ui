@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="SubWindow" parent="GtkApplicationWindow">
+    <property name="title">GTK4 Test 3 SubWindow</property>
+    <property name="default-width">640</property>
+    <property name="default-height">480</property>
+    <child>
+      <object class="GtkGrid" id="sw_main_grid"> <!--Window grid-->
+        <property name="margin-start">12</property>
+        <property name="margin-end">12</property>
+        <property name="margin-top">12</property>
+        <property name="margin-bottom">12</property>
+        <property name="row-spacing">12</property>
+        <property name="column-spacing">12</property>
+        <!-- Leftmost column - Row 0, Col 0 - col_header_label0 -->
+        <child>
+          <object class="GtkLabel" id="sw_col_header_label0">
+            <property name="label">sw_col_header_label0</property>
+            <property name="hexpand">true</property> 
+            <property name="vexpand">false</property>
+            <layout>
+                <property name="row">0</property>
+                <property name="column">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkFrame" id="sw_label_frame0"> <!--Box around the label-->
+            <layout>
+                <property name="row">1</property> <!--The location of the label-->
+                <property name="column">0</property>
+            </layout>
+            <child>
+              <object class="GtkLabel" id="sw_data_display_label0"> <!--The label itself-->
+                <property name="label">sw_data_display_label0</property> <!--Label text displayed-->
+                <property name="hexpand">true</property> 
+                <property name="vexpand">false</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="sw_button0">
+            <property name="label">sw_button0</property>
+            <property name="hexpand">true</property> 
+            <property name="vexpand">true</property>
+            <layout>
+              <property name="row">2</property>
+              <property name="column">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
