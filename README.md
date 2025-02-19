@@ -4,7 +4,7 @@ A program for Raspberry Pi using the BC Robtoics 16-channel analog hat to
 monitor and calibrate sensors.
 
 # Install and build on a fresh RPi OS
-## Libraries needed to run ./bin/main are WiringPi and GTK4.
+## Libraries needed to run ./bin/sensor-cal are WiringPi and GTK4.
 
 1. Get and install WiringPi
 https://github.com/WiringPi/WiringPi
