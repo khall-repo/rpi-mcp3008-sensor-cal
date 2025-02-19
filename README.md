@@ -27,11 +27,11 @@ $ make
 # Usage
 ## Config
 Set your desired options in the config.ini file:
-num_sensors - Number of sensors
-sensor_min_scale - Bottom of sensor scale
-sensor_full_scale - Top of sensor scale
-cal1_pv - Zero calibration point
-cal2_pv - Span calibration point
+num_sensors - Number of sensors <br />
+sensor_min_scale - Bottom of sensor scale <br />
+sensor_full_scale - Top of sensor scale <br />
+cal1_pv - Zero calibration point <br />
+cal2_pv - Span calibration point <br />
 
 The rest of the values shouldn't be messed with unless you know what you're
 doing. Feel free to break things, though.. that's why I left them in there.
